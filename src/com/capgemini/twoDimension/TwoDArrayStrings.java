@@ -9,13 +9,13 @@ public class TwoDArrayStrings {
 
         Scanner scan=new Scanner(System.in);
         for (x=0;x<=s.length-1;x++){
-            for (y=0;y<=s.length-1;y++){
+            for (y=0;y<=s[x].length-1;y++){
                 System.out.println("Enter the name of the Fruits");
                 s[x][y]=scan.next();
             }
         }
         for (x=0;x<=s.length-1;x++){
-            for (y=0;y<=s.length-1;y++) {
+            for (y=0;y<=s[x].length-1;y++) {
                 System.out.print(s[x][y]+" ");
             }
             System.out.println();
